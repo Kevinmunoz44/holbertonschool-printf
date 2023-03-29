@@ -1,0 +1,49 @@
+.TH "29" "MARCH 2023" "Version 1.0" "Man page printf"
+.SH NAME
+printf - print format of output and simple recreation it
+.SH SYPNOSIS
+\fB#include "main.h: is our header is needed"\fP
+\fBint _printf(const char *format, ...);\fP
+.SH DESCRIPTION
+\FBprintf\fP is a function that is called by the standard library which is stdio.h and is used to print various types of data in c
+
+\FBformat\fP is a parameter that carries various types of data that are included in the c language
+
+This format brings some specific characters which are:
+.TP
+\fB%s\fP
+String char
+.TP
+\fB%c\fP
+char
+.TP
+\fB%i\fP
+numbers integers
+.TP
+\fB%d\fP
+numbers decimals
+.TP
+\fB%\fP
+start a format specification
+
+.SH RETURN VALUE
+the function \fB_printf\fP prints returns an integer represeting the number of symbols printed not couting \\0 for the String.
+
+.SH SEE ALSO
+printf(3)
+
+.SH EXAMPLE
+Prints a string of characters and simple numbers.
+.PP
+#include <stdio.h>
+int main(){
+printf("Hello Wordl!");
+return (0);
+}
+
+.SH BUGS
+none bugs known.
+
+.SH AUTHOR
+Kevin Munoz Benitez //
+Miguel Angel Velez Ocampo
