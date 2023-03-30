@@ -26,23 +26,24 @@
 <h3>Format</h3>
 <table>
     <tr>
-        <td>| Specifiers ||            
-    Description || </td>
+        <td> Specifiers </td>
+        <td> Description </td>
     </tr>
     <tr>
-        <td>| -------|| ------- || </td>
+        <td> %c </td>
+        <td> Print_c </td>
     </tr>
     <tr>
-        <td>| %c || Print_c || </td>
+        <td> %s </td>
+        <td> Print_s </td>
     </tr>
     <tr>
-        <td>| %s || Print_s || </td>
+        <td> %i </td>
+        <td> Print_d_i </td>
     </tr>
     <tr>
-        <td>| %i || Print_d_i || </td>
-    </tr>
-    <tr>
-        <td>| %d || Print_d_i || </td>
+        <td> %d </td>
+        <td> Print_d_i </td>
     </tr>
 </table>
 <hr>
