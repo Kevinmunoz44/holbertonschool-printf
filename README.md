@@ -27,7 +27,7 @@
 <table>
     <tr>
         <td> Specifiers </td>
-        <td> Description </td>
+        <td> Functions </td>
     </tr>
     <tr>
         <td> %c </td>
@@ -50,4 +50,4 @@
 
 <h3>Contributors</h3>
 <p>Kevin Munoz || <a href="https://github.com/Kevinmunoz44">https://github.com/Kevinmunoz44</a></p>
-<p>Miguel Angel Velez || <a href="https://github.com/sandro132">https://github.com/sandro132</a></p>
+<p>Miguel Angel Valdez || <a href="https://github.com/sandro132">https://github.com/sandro132</a></p>
